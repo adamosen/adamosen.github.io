@@ -56,7 +56,7 @@ nav a, a:visited{
     bottom:  0;
     left: 0;
     right: 0;
-    background-color: rgb(255, 196, 0);
+
     color: rgb(0, 0, 0);
 
 }
@@ -65,13 +65,12 @@ footer ul{
     top: 0;
     padding: 0px 0px;
     width: 100%;
-    background-color: rgb(255, 196, 0);
+
 }
 
 footer li {
     background-color: rgb(255, 196, 0);
-    padding: 20px 20px;
-    float: left;
+    padding: 20px 0px;
     display: block;
     margin-top: auto;
     margin-bottom: auto;
@@ -79,11 +78,15 @@ footer li {
     margin-left: auto;
 
 }
+
 article{
 
     margin-top: 100px;
 }
 
+footer{
+    background-color: rgb(255, 196, 0);
+}
 
 
 .menyButton,.menyButton:visited{
@@ -230,12 +233,12 @@ figure{
         background-color: rgba(255, 255, 255, 0.0);
         text-align: center;
         padding: 10px 10px;
-        font-size: 14px;
+        font-size: 11px;
         width: 60%
       }
     
       .pizzaMeny{
-        font-size: 11px;
+        font-size: 8px;
         color: white;
 
         display: block;
@@ -244,5 +247,49 @@ figure{
         width:100%;
         text-align: center;
       }
+
+      .footer{
+          width:auto;
+          bottom:  0;
+          left: 0;
+          right: 0;
+   
+          color: rgb(0, 0, 0);
+      
+      }
+
+    
+      footer div{
+            background-color: rgb(187, 146, 11);
+        
+        }
+
+      footer ul{
+          display: block;
+          top: 0;
+          padding: 0px 0px;
+          width: 100%;
+
+      }
+      
+      footer li {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:60%;
+        text-align: center;
+      }
+
+      
+section p{
+    display: block;
+    width: 80%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
 
 }
