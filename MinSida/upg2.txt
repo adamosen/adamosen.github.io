@@ -1,0 +1,31 @@
+Inlämningsuppgift 2:Meny
+ 
+
+I Inlämningsuppgift 2: Meny, så ska ni välja en restaurang, som ni ska skapa en liten hemsida till.
+
+Hemsidan ni skapar ska "passa" restaurang stil/tema så gott ni kan.
+
+Kraven för att klara uppgiften:
+
+-Minst 2 html sidor, en startsida med lite "flash" och en med någon meny för maten, och meny behöver vara gjord i html. 
+
+-Ska skala efter webbläsarens storlek
+
+-Ska utnyttja de semantiska Html5 taggarna 
+
+VG krav 1, är att ni ska anpassa och ändra menyn(både matmenyn och navigeringsmenyn) för att vara optimal för mindre skärmar/mobil.
+
+VG krav 2,, lägg till en "Parallax Scrolling" effekt (https://jolly-kalam-23776e.netlify.app/parallaxsite/ och https://www.w3schools.com/howto/howto_css_parallax.asp  )
+
+Ni ska lämna in uppgiften som en Github pages länk, och lägg också till er vad är valda restaurang.
+
+ 
+
+Bonus överningar :
+
+Övning 1:
+Skapa en lista, sen gör en stil för bara en av raderna i listan
+Övning 2:
+Runda hörnen på en blid
+Övning 3:
+Centrera en bild
