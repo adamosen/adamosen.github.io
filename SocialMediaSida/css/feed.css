@@ -1,0 +1,275 @@
+
+section{
+
+  margin-right: 0px;
+
+  margin-top: 50px;
+  background-color: rgb(204, 219, 220);
+  background-color: rgb(97, 110, 155);
+  padding:  10px;
+  
+
+  border-width: 0;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 0px;
+  border-color: none;
+}
+
+section h1, h2,h3{
+  color: rgb(255, 255, 255);
+}
+
+section p{
+  color: rgb(233, 226, 255)
+
+}
+
+.comment{
+  overflow: hidden;
+  padding:10px;
+  display: inline-flex;
+}
+
+.comment input[type = text]{
+  height: 35px;
+  width: 155px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  border-radius: 10px;
+  border-color: rgb(255, 255, 255);
+  margin-top: auto;
+  margin-bottom: auto;
+  
+  border: none;
+
+}
+
+.comment input:focus {
+  height: 35px;
+
+  outline:  none;
+  width: 250px;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: rgb(118, 111, 127);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+
+  border: none;
+}
+
+.likeSection{
+  border-color: rgb(125, 129, 201);
+  padding: 10px;
+  border-style: solid;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 0;
+  border-right-width: 0;
+  margin-top: 10px;
+}
+
+.profile #profile_pict  {
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    display:inline;
+    background: transparent;
+    
+    
+}
+
+.profile #profile_pict img {
+    border-radius: 50%;
+    background: transparent;
+   
+}
+
+
+.profile #comment_pict  {
+    border: 2px solid rgb(74, 95, 79);
+
+    border-radius: 50%;
+    padding: 4px;
+    height: 70px;
+    width: 70px;
+    margin-left: 1%;
+
+   
+    
+}
+
+.profile #friends_pict  {
+    border: 6px solid rgb(74, 95, 79);
+    margin-left: 10%;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    
+}
+
+article{
+  color: rgb(255, 255, 255);
+}
+
+
+
+section a{
+  color: white;
+}
+
+section a:hover{
+  color: rgb(52, 105, 144);
+  text-decoration: none;
+}
+
+.likeSection a{
+  font-size: 20;
+
+  color: rgb(235, 242, 255);
+  margin: 10px 10px 10px 10px;
+  }
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 1000px) {
+
+
+  section{
+
+  }
+
+}
+
+
+/* Styling for mobile */
+
+@media only screen and (max-device-width: 600px){
+    
+ .profile #profile_pict  {
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    display:inline;
+    background: transparent;
+    
+    
+}
+
+.profile #profile_pict img {
+    border-radius: 50%;
+    background: transparent;
+   
+}
+
+
+.profile #comment_pict  {
+    border: 1px solid rgb(74, 95, 79);
+
+    border-radius: 50%;
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+  .Sekretess{
+  display: none; 
+  }
+
+  .friends{
+    display: none;
+    }
+
+  #bottom {
+    padding: 0px;
+  }
+  .feed{
+  left: 0%;
+}
+    
+
+}
+
+/* Styling for tablets and mobiles */
+
+@media screen and (max-device-width: 1200px) and (min-device-width: 601px) { 
+
+   
+ .profile #profile_pict  {
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    display:inline;
+    background: transparent;
+    
+    
+}
+
+.profile #profile_pict img {
+    border-radius: 50%;
+    background: transparent;
+   
+}
+
+
+.profile #comment_pict  {
+    border: 2px solid rgb(74, 95, 79);
+    
+    padding: 4px;
+    height: 60px;
+    width: 60px;
+    
+
+   
+    
+}
+
+.friends p{
+  font-size: 24px; 
+  margin-left: -3px;
+  margin-top: auto;
+    
+}
+
+.feed{
+  left: 30%;
+}
+
+    
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1200px){
+.feed{
+  left: 10%;
+}
+}
+
+
+@media only screen and (max-device-width: 900px){
+.friends p{
+  display: none;
+    
+}
+  
+.feed{
+  left: 7%;
+}
+
+/* Styling for mobiles*/
+
+@media only screen and (max-device-width: 730px){
+  
+.feed{
+  left: 0%;
+}
+.friends{
+    
+    }
+}

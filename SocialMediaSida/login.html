@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>Login</title>
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href = "css/font.css">
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<link rel="stylesheet" href="css/log.css">
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/cookies.js"></script>
+	<script src="js/login.js"></script>
+
+</head>
+
+<body class="bgColor">
+
+
+
+		<form class="center" name="formName" action="index.html" onsubmit="return checkPass()">
+
+			<div class="midSection">
+				<p><strong>Skapa konto</strong></p>
+
+				<input type ="text" name="newUser" placeholder="Skriv in ett användarnamn...">
+
+				<input type ="password" name="newPassword" placeholder="Skriv in ett lösenord...">
+				<input type="button" onclick="createUser()" value ="Skapa">
+			</div>
+
+			<div class="botSection">
+
+				<p><strong>Logga in här</strong></p>
+			
+				<input type ="text" name="user" placeholder="Användarnamn">
+				<input type ="password" name="password" placeholder="Lösenord">
+
+				<input type="submit" value="Logga in">
+
+
+				<a href = "#"><strong>Har du glömt kontot?</strong></a>
+
+				<p id="passStatus"></p>
+			</div>
+
+			
+
+
+		</form>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

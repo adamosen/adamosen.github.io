@@ -1,0 +1,52 @@
+.Instelning{
+	overflow: hidden;
+  border-style: solid;
+  border-width: 0;
+  border-color: rgb(83, 84, 90);
+  border-top-width: 2px;	
+
+
+	
+}
+.Instelning a{
+  color:white;
+}
+
+
+.rightLine{
+	overflow: hidden;
+  background-color: rgb(113, 109, 162);
+  border-style: solid;
+  border-width: 0;
+  border-color: rgb(175, 180, 208);
+  border-right-width: 2px;	
+  border-bottom-width: 2px;
+
+  border-bottom-right-radius: 15px;
+	
+}
+
+.fb{
+ overflow: hidden;
+
+  border-style: solid;
+  border-width: 0;
+  border-color: rgb(230, 230, 230);
+  border-top-width: 2px;	
+ 
+ 
+}
+
+.TextIIn{
+	overflow: hidden;
+
+  border-color: rgb(175, 180, 208);
+  border-top-width: 2px;
+  border-top-style: dotted;
+  border-right-style: solid;
+
+}
+
+.bgColor{
+  background-color: rgb(34, 34, 39);
+}

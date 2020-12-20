@@ -1,0 +1,144 @@
+form{
+	background-color: rgb(248, 252, 255);
+	border-radius: 10px;
+	padding: 0px;
+
+	width: 300px;
+
+	box-shadow:         0px 1px 5px rgba(0, 0, 0, 0.211);
+}
+
+p{
+	margin-left: auto;
+	margin-right:auto;
+	max-width: 100%;
+
+	color: rgb(128, 126, 124);
+}
+
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+
+	margin-top:5%;
+}
+
+.bgColor{
+	background-color: rgb(218, 218, 231);
+}
+.topSection{
+
+
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+.midSection, .botSection, .topSection{
+
+	display: grid ;
+
+}
+
+input,input:focus{
+	height: 30px;
+
+	border-radius: 5px;
+
+	border: 2px solid rgb(255, 231, 218);
+
+
+	width: 250px;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-top: 10px;
+  
+  }
+
+   .button a{
+	display: block;
+	text-align: center;
+  
+	color: rgb(255, 255, 255);
+  
+	margin: 10px;
+	padding: 10px;
+	background: rgb(78, 75, 105);
+  
+	text-decoration: none;
+  
+	border-radius: 10px;
+  }
+
+  input[type=submit],input[type=button]{
+	  height: 35px;
+
+
+	  color: white;
+	  background-color: rgb(236, 159, 87);
+	  border:none;
+
+	  
+  }
+
+  input[type=submit]:hover,input[type=button]:hover{
+
+	background-color: rgb(202, 146, 85);
+  }
+  
+  .button a:hover{
+  
+	background-color: rgb(101, 98, 160);
+  
+  color: white;
+  }
+  
+
+ input:focus {
+
+	outline:  none;
+
+  }
+
+
+.botSection a{
+
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+a, a:visited{
+	padding: 10px;
+	font-size: 80%;
+
+	color:rgb(105, 105, 199);
+
+	text-decoration: none;
+}
+
+
+.midSection{
+	padding-bottom: 20px;
+}
+
+.botSection{
+
+padding-bottom: 10px;
+
+border-top: 2px solid rgb(206, 206, 206);
+
+
+
+
+}
+
+section{
+	background-color: rgb(97, 110, 155);
+	border-radius: 20px;
+}
+
