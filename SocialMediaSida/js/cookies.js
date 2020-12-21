@@ -28,7 +28,7 @@ function setCookie(cname,cvalue,exdays) {
 
     var username = getCookie("username");
 
-    document.getElementById(alias).innerHTML = username;
+    document.getElementById("alias").innerHTML = username;
   }
   
   function checkCookie() {
