@@ -21,6 +21,15 @@ function setCookie(cname,cvalue,exdays) {
     }
     return "";
   }
+
+  function setCookieUserInfo(){
+
+
+
+    var username = getCookie("username");
+
+    document.getElementById(alias).innerHTML = username;
+  }
   
   function checkCookie() {
     var user=getCookie("username");
