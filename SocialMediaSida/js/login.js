@@ -63,9 +63,8 @@ function checkPass() {
 
         //if correct pass and user do this
         if (password === passSave && user === username) {
+            //sparar i cookies 1 dag
             setCookie("username",username,1);
-            
-            alert( document.cookie );
             return true;
         }
     }
