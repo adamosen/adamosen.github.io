@@ -52,7 +52,6 @@ function checkPass() {
             var attemptsLeft = 4 - passCount;
 
             //info to user about incorrect pass
-            document.getElementById("passStatus").style.color = "gray";
             document.getElementById("passStatus").innerHTML = "you have " + attemptsLeft + "tries left.";
 
             //add 1 to count
@@ -64,8 +63,10 @@ function checkPass() {
 
         //if correct pass and user do this
         if (password === passSave && user === username) {
-            //sparar i cookies 1 dag
+            //sparar i cookies 1
             setCookie("username",username,1);
+            
+
             return true;
         }
     }
