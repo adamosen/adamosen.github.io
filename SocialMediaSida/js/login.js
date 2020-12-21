@@ -52,6 +52,7 @@ function checkPass() {
             var attemptsLeft = 4 - passCount;
 
             //info to user about incorrect pass
+            document.getElementById("passStatus").style.color = "gray";
             document.getElementById("passStatus").innerHTML = "you have " + attemptsLeft + "tries left.";
 
             //add 1 to count
