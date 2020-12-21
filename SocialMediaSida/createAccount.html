@@ -29,27 +29,22 @@
 <body class="bgColor">
 
 
-		<!--method borde vara "post" så det inte går se datan som skickas, men vet ej om det går med github ISP action="index.html" onsubmit="return checkPass()"-->
+		<!--method borde vara "post" så det inte går se datan som skickas, men vet ej om det går med github ISP-->
 		<form method = "get" class="center" name="formName">
 
-
 			<div class="formSection">
+				<p><strong>Skapa konto</strong></p>
 
-				<p><strong>Logga in här</strong></p>
-			
-				<input type ="text" name="user" placeholder="Användarnamn">
-				<input type ="password" name="password" placeholder="Lösenord">
+				<input type ="text" name="newUser" placeholder="Skriv in ett användarnamn...">
 
-				<input type="button" value="Logga in" onclick="goToIndex()">
+				<input type ="password" name="newPassword" placeholder="Skriv in ett lösenord...">
+				<input type="button" onclick="createUser()" value ="Skapa">
 
-
-				<a href = "#"><strong>Har du glömt kontot?</strong></a>				
-				<a href = "createAccount.html"><strong>Skapa konto</strong></a>
+				<a href = "login.html"><strong>Logga in här</strong></a>
 
 				<p id="passStatus"></p>
 			</div>
 
-			
 
 
 		</form>

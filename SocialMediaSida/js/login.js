@@ -34,6 +34,20 @@ function createUser(){
 
 }
 
+function goToIndex(){
+
+    //om checkpass är true...
+    if(checkPass())
+    {
+        //sparar user i cookies 1 vecka
+        setCookie("username",username,7);
+
+        window.location.href = "index.html";
+    }
+
+            
+}
+
 
 function checkPass() {
 
@@ -63,9 +77,7 @@ function checkPass() {
 
         //if correct pass and user do this
         if (password === passSave && user === username) {
-            //sparar i cookies 1
-            setCookie("username",username,1);
-            
+
 
             return true;
         }
