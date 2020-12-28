@@ -3,7 +3,7 @@ function setCookie(cname,cvalue,exdays) {
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires=" + d.toGMTString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-    //alert( document.cookie );
+    alert( document.cookie );
   }
   
   function getCookie(cname) {
@@ -28,7 +28,7 @@ function setCookie(cname,cvalue,exdays) {
 
     var username = getCookie("username");
 
-    document.getElementById("alias").innerHTML = username;
+    document.getElementById("profileNavText").innerHTML = "Welcome "+ username;
   }
   
   function checkCookie() {
