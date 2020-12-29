@@ -57,9 +57,6 @@
     float: left;
 
 
-    margin-left: -30px;
-
-
 }
 .navMid{
 
@@ -143,8 +140,6 @@ input:focus {
 
 @media only screen and (max-device-width: 600px){
 
-    .header-nav a {display: none;}
-
     .header-nav .active {display: block;}
 
     .header-nav a.icon {
@@ -210,6 +205,7 @@ input:focus {
 
 @media screen and (max-width: 575.5px){
 
+
     
 
 
@@ -239,22 +235,14 @@ input:focus {
 
 
     }
+}
 
-    input,input:focus{
-
-        width: 10px;
-    
-        }
-  
-    }
 
 @media screen and (max-width: 779px) and (min-width:576px){
 
+    input,input:focus{
 
-  input,input:focus{
-
-    width: 10px;
-
+        width: 100px;
+        
     }
-
   }

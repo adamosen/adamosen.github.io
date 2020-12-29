@@ -1,6 +1,10 @@
 
 section{
 
+  max-width: 300px;
+
+  width: auto;
+
   margin-right: 0px;
 
   margin-top: 50px;
@@ -25,31 +29,57 @@ section p{
 
 }
 
+.centerSection{
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
+}
 .comment{
   overflow: hidden;
-  padding:10px;
+  padding-top :10px;
+
+
   display: inline-flex;
 }
 
 .comment input[type = text]{
+
   height: 35px;
-  width: 155px;
-  -webkit-transition: width .35s ease-in-out;
-  transition: width .35s ease-in-out;
+  padding-left: 10px;
+  outline:  none;
+  width: 100px;
+
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  border-color: rgb(255, 255, 255);
+  border-color: rgb(118, 111, 127);
   margin-top: auto;
   margin-bottom: auto;
-  
+  margin-left: 15px;
+
   border: none;
 
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+
+}
+
+.imgSizeSmall{
+  height:64px;
+
+  width: 64px;
+
+  border-radius: 100%;
+
+  border-style: solid;
+  border-color: rgb(75, 175, 75);
 }
 
 .comment input:focus {
   height: 35px;
-
+  padding-left: 10px;
   outline:  none;
-  width: 250px;
+  width: 50%;
 
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -130,9 +160,69 @@ section a:hover{
 .likeSection a{
   font-size: 20;
 
+
   color: rgb(235, 242, 255);
   margin: 10px 10px 10px 10px;
   }
+
+  .sekretess{
+    margin-left: -0px;
+
+
+  }
+
+  .sekretess h3{
+    padding: 10px;
+
+    background-color: #4b648f;
+
+    text-align: center;
+    margin-left: 0px;
+
+    margin-bottom: 0;
+  }
+
+  .sekretess ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.sekretess ul li {
+  background: #fff9e5;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+  .sekretess li a{
+
+    color: rgb(81, 56, 49);
+
+    display: block;
+
+    padding: 10px;
+    text-decoration: none;
+
+
+
+    }
+
+
+    .sekretess li a:hover{
+      background-color: rgb(197, 182, 144);
+
+      color: rgb(255, 255, 255);
+  
+      text-decoration: none;
+      }
+  
+    .friends{
+      display: none;
+      }
+  
+
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 1000px) {
@@ -180,6 +270,7 @@ section a:hover{
 
   .Sekretess{
   display: none; 
+
   }
 
   .friends{
@@ -243,7 +334,7 @@ section a:hover{
 }
 
     
-}
+
 
 @media screen and (min-device-width: 1000px) and (max-device-width: 1200px){
 .feed{
@@ -261,6 +352,7 @@ section a:hover{
 .feed{
   left: 7%;
 }
+}
 
 /* Styling for mobiles*/
 
@@ -269,7 +361,9 @@ section a:hover{
 .feed{
   left: 0%;
 }
-.friends{
-    
-    }
+
+
+
+}
+
 }

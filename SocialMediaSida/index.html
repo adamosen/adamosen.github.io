@@ -14,10 +14,6 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/index_style.css">
-	<link rel="stylesheet" href="css/Footer.css">
-	<link rel="stylesheet" href="css/Header.css">
-	<link rel="stylesheet" href="css/feed.css">
 
 
 	<link rel="icon" type="image/png" href="img/favicon.png" />
@@ -27,217 +23,160 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 
-	<script src ="js/cookies.js"></script>
-	<script src ="js/index.js"></script>
+	<script src="js/cookies.js"></script>
+	<script src="js/index.js"></script>
 
+	<link rel="stylesheet" href="css/Header.css">
+	<link rel="stylesheet" href="css/global.css">
+
+	<link rel="stylesheet" href="css/feed.css">
 </head>
 
 <body onload="setCookieUserInfo()">
 
-	<div class="container-fluid wrapper">
+	<nav class="header-nav">
 
-		<!-- Header -->
-
-		<div class="header-nav-BG">
-			<div class="header-nav" id="topnav">
-
+		<div class ="container">
+			<div class="row no-gutters ">
+				<div class="col-sm-3 navLeft" >
 
 
-				<!-- Replace comment med code för Navbar länkar. -->
-				<div class="header-nav" id="topnav">
-					<a href="index.html"><span class="glyphicon glyphicon-plus-sign"></span></a>
-					<a href="profil.html"><span class="glyphicon glyphicon-user"></span></a>
-					<a href="sekretess.html"><span class="glyphicon glyphicon-lock"></span></a>
-					<a href="index.html" class="active"><span class="glyphicon glyphicon-home"></span></a>
-					<a href="javascript:void(0);" class="icon" onclick="navbarMenuToggle()">&#9776;</a>
-
-
-					<!--- User related content --->
-
-					<div class="col-sm-4">
-
-						<a class="header-nav" href="index.html" id="profile_pict">
-							<img class="img-responsive img-fluid header-nav" src="img/profile_pict.jpg">
-						</a>
-
-						<h1 class="header-nav" id="alias">
-
-							Bert Bertsson
-						</h1>
+					<div>
+						<a href="profil.html" id="profileNavText">Welcome back Name</a>
 					</div>
 
-					<!--- Search bar --->
-					<div class="col-sm-4">
-						<input class="Search" type="text" placeholder="Search..">
+				</div>
+				<div class="col-sm-4 navMid">
+
+
+					<div>
+						<form>
+							<input class="mr-sm-0 " type="search" placeholder="Search" aria-label="Search">
+							<button class="my-2 my-sm-0" type="submit">Sök</button>
+
+						</form>
 					</div>
+
+				</div>
+				<div class="col-sm-5 navRight">
+
+					<div>
+						<a href="#">Home</a>
+						<a href="#">Profil</a>
+						<a href="#">Sekretess</a>
+					</div>
+
 				</div>
 			</div>
-
-		
-		<!--  Body   -->
-		<div class="Sekretess" style="float:left;">
-			<section>
-			<h3> Inställningar </h3>
-				<nav>
-				  <ul style="list-style-type:none;">
-					<li><a href="#">Allmänt</a></li>
-					<li><a href="#">Säkerhet och inloggning</a></li>
-					<li><a href="#">Din Information</a></li>
-					<li><a href="#">Sekretess</a></li>
-					<li><a href="#">Profil och taggning</a></li>
-					<li><a href="#">Offentliga inlägg</a></li>
-					<li><a href="#">Blockering</a></li>
-					<li><a href="#">Plats</a></li>
-					<li><a href="#">Språk och region</a></li>
-					<li><a href="#">Händelser</a></li>
-					<li><a href="#">Aviseringar</a></li>
-					<li><a href="#">Mobil</a></li>
-					<li><a href="#">Appar och webbplatser</a></li>
-					<li><a href="#">Snabbspel</a></li>
-					<li><a href="#">Annonser</a></li>
-					<li><a href="#">Support-inkorg</a></li>
-					<li><a href="#">Videoklipp</a></li>
-				  </ul>
-				</nav>
-		</section>
 		</div>
 
-		<div class="col-sm-5 feed">
+	</nav>
 
-		<section>	
-			<div>
-				<a class="header-nav" href="index.html" id="comment_pict">
-					<img class="img-responsive img-fluid header-nav" id="comment_pict" src="img/profil.jpg">
-				</a>						
-									
-							    </div>
-								<p>Lina Hart</p>
-								<img src="pil" alt="pil">
-								<P>Bert Bertsson</P>
-								<p>24 november kl. 14.33</p>
-								<article>
-									Grattis på födelsedagen Bert!
-								</article>
-								<div class="likeSection">
-									<a href="#">Gilla</a>
-									<a href="#">Kommentera</a>
-								</div>
-								<div class="comment">
-								<div class="col-sm-5">
-									<a class="header-nav" href="index.html" id="comment_pict">
-										<img class="img-responsive img-fluid header-nav" id="comment_pict"
-											src="img/Profile_pict.jpg">
-									</a>
-								</div>
-								<input class="col-sm-2" type="text" id="comment" placeholder="skriv något...">
-					</div>
-		 </section>
-							
-		 
-		<section>	
-			<div>
-				<a class="header-nav" href="index.html" id="comment_pict">
-					<img class="img-responsive img-fluid header-nav" id="comment_pict" src="img/profil.jpg">
-				</a>						
-									
-							    </div>
-								<p>Lina Hart</p>
-								<img src="pil" alt="pil">
-								<P>Bert Bertsson</P>
-								<p>24 november kl. 14.33</p>
-								<article>
-									Grattis på födelsedagen Bert!
-								</article>
-								<div class="likeSection">
-									<a href="#">Gilla</a>
-									<a href="#">Kommentera</a>
-								</div>
-								<div class="comment">
-								<div class="col-sm-5">
-									<a class="header-nav" href="index.html" id="comment_pict">
-										<img class="img-responsive img-fluid header-nav" id="comment_pict"
-											src="img/Profile_pict.jpg">
-									</a>
-								</div>
-								<input class="col-sm-2" type="text" id="comment" placeholder="skriv något...">
-					</div>
-		 </section>
-								
-		</div>
 
-		<div class="col-sm-3 container-fluid friends" style="float: right;">
-			<section>
-				<h1 class="col-sm-12" style="font-size:35px; position: relative;">Vänner</h1>
-				<div class="comment">
-								<div class="col-sm-12">
-									<a class="profile" href="index.html" id="friends_pict">
-										<img class="img-responsive img-fluid profile" id="friends_pict"
-											src="img/Profile_pict.jpg">
-									</a>
-								</div>
-								
-						<p class="friends">
-							Bert Bertsson
-						</p>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md d-none d-md-block ">
+				<!--  Body   -->
+				<div class="sekretess">
+					<aside>
+						<h3> Inställningar </h3>
+						<nav>
+							<ul>
+								<li><a href="#">Allmänt</a></li>
+								<li><a href="#">Säkerhet och inloggning</a></li>
+								<li><a href="#">Din Information</a></li>
+								<li><a href="#">Sekretess</a></li>
+								<li><a href="#">Profil och taggning</a></li>
+								<li><a href="#">Offentliga inlägg</a></li>
+								<li><a href="#">Blockering</a></li>
+								<li><a href="#">Plats</a></li>
+								<li><a href="#">Språk och region</a></li>
+								<li><a href="#">Händelser</a></li>
+								<li><a href="#">Aviseringar</a></li>
+								<li><a href="#">Mobil</a></li>
+								<li><a href="#">Appar och webbplatser</a></li>
+								<li><a href="#">Snabbspel</a></li>
+								<li><a href="#">Annonser</a></li>
+								<li><a href="#">Support-inkorg</a></li>
+								<li><a href="#">Videoklipp</a></li>
+							</ul>
+						</nav>
+					</aside>
+				</div>
+			</div>
+			<div class="col-md-5">
+
+				<section class ="centerSection" >
+					<div>
+						<a href="index.html" id="comment_pict">
+							<img class="img-responsive img-fluid header-nav imgSizeSmall" id="comment_pict"
+								src="img/profil.jpg
+								">
+						</a>
+
 					</div>
+					<p>Lina Hart</p>
+					<p><strong>></strong></p>
+					<P>Bert Bertsson</P>
+					<p>24 november kl. 14.33</p>
+					<article>
+						Grattis på födelsedagen Bert!
+					</article>
+					<div class="likeSection">
+						<a onclick="likePost()" href="javascript:void(0);" id="like">♥</a>
+
+						<a onclick="addComment()" href="javascript:void(0);">Kommentera</a>
+					</div>
+
+					<div class ="newComments" id = "newComments">
+
+						<p style="margin-bottom: -10px;">Kommentarer:</p>
+
+					</div>
+
+					
+
 
 					<div class="comment">
-								<div class="col-sm-12 container-fluid">
-									<a class="profile" href="index.html" id="friends_pict">
-										<img class="img-responsive img-fluid profile" id="friends_pict"
-											src="img/Profile_pict.jpg">
-									</a>
-								</div>
-								
-						<p class="friends">
-							Bert Bertsson
-						</p>
+						<div class="5col-sm-">
+							<a href="index.html" id="comment_pict">
+								<img class="img-responsive img-fluid header-nav imgSizeSmall" id="comment_pict"
+									src="img/Profile_pict.jpg">
+							</a>
+						</div>
+						<input type="text" id="comment" placeholder="skriv något...">
 					</div>
+				</section>
 
+
+
+			</div>
+			<div class="col-sm" style="background-color: rgb(64, 54, 45);">
+
+				<aside>
+					<h1 class="col-sm-12" style="font-size:35px; position: relative;">Vänner</h1>
 					<div class="comment">
-								<div class="col-sm-12">
-									<a class="profile" href="index.html" id="friends_pict">
-										<img class="img-responsive img-fluid profile" id="friends_pict"
-											src="img/Profile_pict.jpg">
-									</a>
-								</div>
-								
+						<div class="col-sm-12">
+							<a class="profile" href="index.html" id="friends_pict">
+								<img class="img-responsive img-fluid profile" id="friends_pict"
+									src="img/Profile_pict.jpg">
+							</a>
+						</div>
+
 						<p class="friends">
 							Bert Bertsson
 						</p>
 					</div>
 
-					<div class="comment">
-								<div class="col-sm-12">
-									<a class="profile" href="index.html" id="friends_pict">
-										<img class="img-responsive img-fluid profile" id="friends_pict"
-											src="img/Profile_pict.jpg">
-									</a>
-								</div>
-								
-						<p class="friends">
-							Bert Bertsson
-						</p>
-					</div>
 
-				
-			</section>
+
+				</aside>
+
+			</div>
 		</div>
 	</div>
-		
-
-	<!-- Navbar Scriptet -->
-
-	<script>
-		function navbarMenuToggle() {
-			var x = document.getElementById("topnav");
-			if (x.className === "header-nav") {
-				x.className += " responsive";
-			} else {
-				x.className = "header-nav";
-			}
-		}
-	</script>
 
 </body>
 
