@@ -59,6 +59,25 @@
   transition: 0.3s;
 }
 
+.textEffect{
+
+  color: rgb(244, 222, 255);
+  transition: 0.5s ease-out;
+
+
+}
+
+.bigBottomSpace{
+  margin-bottom: 100px;
+}
+
+
+.textEffect:hover{
+  
+  background:-moz-radial-gradient(left, #cba334 24%, #ffffff 88%);
+  font-size: 200%;
+  color: rgb(255, 198, 92);
+}
 .imageFrame2:hover{
   border-radius: 20px;
 
