@@ -5,6 +5,47 @@
  *
  * Made By MaterializeCSS.com
  */
+ body { 
+  animation: fadeInAnimation ease 1.0s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  background-color: rgb(80, 77, 75);
+} 
+
+
+.centerTextBlock{
+
+  margin-top:100px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 20px;
+}
+
+.centerTextBlock img{
+  border-radius: 100%;
+}
+
+nav{
+  background-color: rgb(99, 166, 233);
+}
+
+
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+  } 
+} 
+
+.light{
+
+  color:white;
+}
 
 .icon-block {
   padding: 0 15px;
@@ -58,6 +99,70 @@
   margin: 10px;
   transition: 0.3s;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.profile{
+border-radius: 100%;
+  margin-top: 140px;
+  max-width: 300px;
+
+  margin-bottom: -100px;
+}
+
+/*Header*/
+header{
+  position: relative;
+  width: 100%;
+
+  background-color: #5596be;
+  
+}
+h2{
+  padding: 1em;
+  color: rgb(250, 250, 250);
+}
+header::after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: inherit;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transform-origin: top left;
+  transform: skewY(6deg);
+}
+/*footer*/
+footer{
+  position: relative;
+  width: 100%;
+
+  background-color: #5596be;
+  margin-top: 18%;
+}
+footer::after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: #5596be;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transform-origin: bottom right;
+  transform: skewY(3deg);
+}
+
 
 .textEffect{
 
