@@ -12,6 +12,75 @@
   background-color: rgb(80, 77, 75);
 } 
 
+form{
+  background-color: rgb(112, 92, 92);
+
+  padding: 25px;
+
+border-radius: 30px;
+
+}
+
+textarea{
+  resize: none;
+
+}
+
+form input[type=button], form input[type=submit], form input[type=reset] {
+  background-color: #6382b3;
+  border: none;
+  color: white;
+  padding: 16px 16px;
+
+  font-size: large;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+form input[type="submit"]:hover {
+  background: rgb(58, 162, 231);
+  
+}
+
+
+
+textarea{ 
+  outline: none !important;
+  color: #ddcaca;
+  border-color: #719ECE;
+  border-width: 3px;
+  transition: 0.3s;
+}
+
+input, select, textarea{
+  outline: none !important;
+  color: #ddcaca;
+  border-color: #997373 ;
+  border-width: 2px;
+}
+
+textarea:focus, input:focus + label {
+  outline: none !important;
+  color: #ddcaca;
+  border-color: #95999e;
+  border-width: 3px;
+}
+
+
+
+ 
+ input[type=text] {
+  border-bottom: 1px solid #997373 !important;
+  box-shadow: 0 1px 0 0 #997373 !important;
+ }
+ 
+
+ input[type=text]:focus{
+  border-bottom: 1px solid #a4bbc5 !important;
+  box-shadow: 0 1px 0 0 #a4bbc5 !important;
+ }
 
 .centerTextBlock{
 
@@ -103,6 +172,8 @@ nav{
 *{
   padding: 0;
   margin: 0;
+
+  font-weight: 300;
 }
 
 
